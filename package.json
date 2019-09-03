@@ -1,0 +1,23 @@
+{
+    "name": "themes",
+    "displayName": "themes",
+    "description": "\"https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/(name).tmTheme\"",
+    "version": "0.0.3",
+    "repository":"https://github.com/sirshikher/vscode_theme",
+    "publisher": "shikher",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "\"https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/(name).tmTheme\"",
+                "uiTheme": "vs-dark",
+                "path": "./themes/theme_file.json"
+            }
+        ]
+    }
+}
